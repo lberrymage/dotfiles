@@ -1,0 +1,7 @@
+rofi.modi: drun,window
+rofi.show_icons: true
+rofi.scroll_method: 1
+rofi.location: 2
+rofi.lines: 4
+rofi.width: 30
+rofi.theme: Pop-Dark

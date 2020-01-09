@@ -1,0 +1,7 @@
+[user]
+	email = mageelog@gmail.com
+	name = lberrymage
+[core]
+	editor = vim
+[gpg]
+	program = gpg2
