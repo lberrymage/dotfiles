@@ -12,3 +12,4 @@ alias ll='ls -l'
 PS1='[\u@\h \W]\$ '
 
 export PATH=~/.cargo/bin:$PATH
+export PATH=~/.local/bin:$PATH
