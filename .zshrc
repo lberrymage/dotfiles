@@ -19,3 +19,5 @@ zstyle :compinstall filename '/home/lberrymage/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+
+source $ZSH/oh-my-zsh.sh
