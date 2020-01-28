@@ -1,5 +1,11 @@
 # Aliases
 alias dotfile='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dfc='dotfile commit'
+alias dfdc='dotfile diff --cached'
+alias dfa='dotfile add'
+alias dfd='dotfile diff'
+alias dfl='dotfile log'
+alias dfs='dotfile status'
 alias etckeeper='sudo etckeeper'
 alias ls='ls --color=auto'
 alias ll='ls -l'
