@@ -8,6 +8,7 @@ alias dfl='dotfile log'
 alias dfs='dotfile status'
 alias etckeeper='sudo etckeeper'
 alias ls='lsd'
+alias tree='ls --tree'
 
 # Zsh theme
 ZSH_THEME=powerlevel10k/powerlevel10k
