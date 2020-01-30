@@ -10,9 +10,6 @@ alias etckeeper='sudo etckeeper'
 alias ls='lsd'
 alias tree='ls --tree'
 
-# Zsh theme
-ZSH_THEME=powerlevel10k/powerlevel10k
-
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.zsh_history
 HISTSIZE=500
@@ -29,6 +26,4 @@ compinit
 # End of lines added by compinstall
 
 source $ZSH/oh-my-zsh.sh
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+eval "$(starship init zsh)"
