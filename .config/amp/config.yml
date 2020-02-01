@@ -1,0 +1,61 @@
+#   __ _ _ __ ___  _ __
+#  / _` | '_ ` _ \| '_ \
+# | (_| | | | | | | |_) |
+#  \__,_|_| |_| |_| .__/
+#                 | |
+#                 |_|
+
+# General options
+tab_width: 4
+soft_tabs: false
+
+# File format-specific options
+types:
+  C:
+    tab_width: 8
+    soft_tabs: false
+  c:
+    tab_width: 8
+    soft_tabs: false
+  cc:
+    tab_width: 8
+    soft_tabs: false
+  cpp:
+    tab_width: 8
+    soft_tabs: false
+  cxx:
+    tab_width: 8
+    soft_tabs: false
+  c++:
+    tab_width: 8
+    soft_tabs: false
+  h:
+    tab_width: 8
+    soft_tabs: false
+  hh:
+    tab_width: 8
+    soft_tabs: false
+  hpp:
+    tab_width: 8
+    soft_tabs: false
+  hxx:
+    tab_width: 8
+    soft_tabs: false
+  h++:
+    tab_width: 8
+    soft_tabs: false
+  py:
+    tab_width: 4
+    soft_tabs: false
+  rs:
+    tab_width: 4
+    soft_tabs: true
+  txt:
+    tab_width: 4
+    soft_tabs: false
+  yaml:
+    tab_width: 2
+    soft_tabs: true
+  yml:
+    tab_width: 2
+    soft_tabs: true
