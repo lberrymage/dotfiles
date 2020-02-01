@@ -4,9 +4,6 @@ alias etckeeper='sudo etckeeper'
 alias ls='ls --color=auto'
 alias ll='ls -l'
 
-export PATH=~/.cargo/bin:$PATH
-export PATH=~/.local/bin:$PATH
-
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.zsh_history
 HISTSIZE=500
