@@ -34,8 +34,8 @@ xbindkeys
 # Set faster keyboard repeat rate
 xset r rate 250 30
 
-# Start compton compositor - necessary for transparency
-compton -b
+# Start picom compositor - necessary for transparency
+picom -b
 
 # Set background
 feh --bg-scale ~/.wallpaper.jpg
