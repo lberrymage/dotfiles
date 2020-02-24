@@ -1,4 +1,5 @@
 export EDITOR=vim
+export MOZ_ENABLE_WAYLAND=1
 export PATH=~/.cargo/bin:$PATH
 export PATH=~/.local/bin:$PATH
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
