@@ -63,7 +63,7 @@ input type:keyboard {
 	repeat_rate 30
 	xkb_layout us,us
 	xkb_variant dvorak,
-	xkb_options grp:win_space_toggle,numpad:mac
+	xkb_options caps:escape,grp:win_space_toggle,numpad:mac,shift:both_capslock
 }
 
 input type:touchpad {
