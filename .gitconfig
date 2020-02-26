@@ -1,6 +1,7 @@
 [user]
 	email = mageelog@gmail.com
 	name = lberrymage
+	signingKey = 9BD8C92FB2F968121EC1CDA8741C703B9C606DBB
 [core]
 	editor = vim
 	pager = diff-so-fancy | less --tabs=4 -RFX
