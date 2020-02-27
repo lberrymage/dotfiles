@@ -1,3 +1,6 @@
+# Oh-my-zsh
+source $ZSH/oh-my-zsh.sh
+
 # Aliases
 alias dotfile='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias dfc='dotfile commit'
@@ -31,5 +34,4 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-source $ZSH/oh-my-zsh.sh
 eval "$(starship init zsh)"
