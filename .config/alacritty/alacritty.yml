@@ -151,39 +151,34 @@ font:
 # If `true`, bold text is drawn using the bright color variants.
 #draw_bold_text_with_bright_colors: true
 
-# Colors (Solarized Dark)
+# Colors (Monokai Soda)
 colors:
   # Default colors
   primary:
-    background: '0x002b36' # base03
-    foreground: '0x839496' # base0
-
-  # Cursor colors
-  cursor:
-    text:   '0x002b36' # base03
-    cursor: '0x839496' # base0
+    background: '0x1a1a1a'
+    foreground: '0xc4c5b5'
 
   # Normal colors
   normal:
-    black:   '0x073642' # base02
-    red:     '0xdc322f' # red
-    green:   '0x859900' # green
-    yellow:  '0xb58900' # yellow
-    blue:    '0x268bd2' # blue
-    magenta: '0xd33682' # magenta
-    cyan:    '0x2aa198' # cyan
-    white:   '0xeee8d5' # base2
+    black:   '0x1a1a1a'
+    red:     '0xf4005f'
+    green:   '0x98e024'
+    yellow:  '0xfa8419'
+    blue:    '0x9d65ff'
+    magenta: '0xf4005f'
+    cyan:    '0x58d1eb'
+    white:   '0xc4c5b5'
 
   # Bright colors
   bright:
-    black:   '0x002b36' # base03
-    red:     '0xca1f20' # custom_red
-    green:   '0x34ba20' # custom_green
-    yellow:  '0xc0bb00' # custom_yellow
-    blue:    '0x1754ba' # custom_blue
-    magenta: '0x6c71c4' # violet
-    cyan:    '0x2ab3bb' # custom_cyan
-    white:   '0xfdf6e3' # base3
+    black:   '0x625e4c'
+    red:     '0xf4005f'
+    green:   '0x98e024'
+    yellow:  '0xe0d561'
+    blue:    '0x9d65ff'
+    magenta: '0xf4005f'
+    cyan:    '0x58d1eb'
+    white:   '0xf6f6ef'
 
 # Visual Bell
 #
