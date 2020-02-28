@@ -19,6 +19,9 @@ alias efs='etcfile status'
 alias ls='lsd'
 alias tree='ls --tree'
 
+# Default umask
+umask 027
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.zsh_history
 HISTSIZE=500
