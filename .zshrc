@@ -22,19 +22,17 @@ alias tree='ls --tree'
 # Default umask
 umask 027
 
-# Lines configured by zsh-newuser-install
+# Miscellaneous options
 HISTFILE=~/.zsh_history
 HISTSIZE=500
 SAVEHIST=500
 unsetopt beep
 bindkey -v
-# End of lines configured by zsh-newuser-install
 
-# The following lines were added by compinstall
+# Autocompletion
 zstyle :compinstall filename '/home/lberrymage/.zshrc'
-
 autoload -Uz compinit
 compinit
-# End of lines added by compinstall
 
+# Starship prompt
 eval "$(starship init zsh)"
