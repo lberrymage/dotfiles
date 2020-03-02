@@ -30,6 +30,7 @@ unsetopt beep
 bindkey -v
 
 # Autocompletion
+setopt COMPLETE_ALIASES
 zstyle :compinstall filename '/home/lberrymage/.zshrc'
 autoload -Uz compinit
 compinit
