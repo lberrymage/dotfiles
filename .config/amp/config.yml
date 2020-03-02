@@ -6,6 +6,7 @@
 #                 |_|
 
 # General options
+theme: monokai_dark_soda
 tab_width: 4
 soft_tabs: false
 
