@@ -20,6 +20,9 @@ set $term alacritty
 # on the original workspace that the command was run on.
 set $menu wofi | xargs swaymsg exec --
 
+### Miscellaneous settings
+default_border pixel 1
+
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
