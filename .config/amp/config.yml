@@ -24,6 +24,9 @@ types:
   cpp:
     tab_width: 8
     soft_tabs: false
+  css:
+    tab_width: 2
+    soft_tabs: true
   cxx:
     tab_width: 8
     soft_tabs: false
