@@ -20,7 +20,7 @@
         "interval": 5
     },
     "custom/updates": {
-        "exec": "$HOME/.config/waybar/updates.py -b '#d6d6d6' -u '#d6d6d6' -a",
+        "exec": "$HOME/.config/waybar/updates.py",
         "format": " {}",
         "interval": 900
     },
