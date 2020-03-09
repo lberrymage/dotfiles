@@ -17,12 +17,14 @@
         "format-disconnected": "",
         "format-linked": "{ifname}: (No IP) ",
         "format-wifi": "{essid} ({signalStrength}%) ",
-        "interval": 5
+        "interval": 5,
+        "tooltip": false
     },
     "custom/updates": {
         "exec": "$HOME/.config/waybar/updates.py",
         "format": " {}",
-        "interval": 900
+        "interval": 900,
+        "tooltip": false
     },
     "battery": {
         "format": "{capacity}% {icon}",
@@ -32,6 +34,7 @@
         }
     },
     "clock": {
-        "format-alt": "{:%a, %d. %b  %H:%M}"
+        "format-alt": "{:%a, %d. %b  %H:%M}",
+        "tooltip": false
     }
 }
