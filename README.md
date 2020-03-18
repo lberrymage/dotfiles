@@ -58,6 +58,7 @@ Here's a list of all the notable things I have installed.
 - [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 - [oh-my-zsh](https://ohmyz.sh)
 - [git](https://git-scm.com)
+- [git-lfs](https://git-lfs.github.com/)
 - [gnupg](https://gnupg.org)
 
 ---
