@@ -9,7 +9,8 @@ set copyindent
 set preserveindent
 set softtabstop=0
 
-set shiftwidth=4        " Default tab width when not specified
+" Default tab width when not specified
+set shiftwidth=4
 set tabstop=4
 
 " Make tabs appear as >- and trailing spaces as .
