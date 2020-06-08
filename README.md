@@ -41,7 +41,6 @@ Here's a list of all the notable things I have installed.
 | [swaywm](https://github.com/swaywm/sway)              | The i3-compatible Wayland compositor with a pretty logo                    |
 | [waybar](https://github.com/Alexays/waybar)           | A configurable status bar which gave me a love-hate relationship with CSS  |
 | [wofi](https://hg.sr.ht/~scoopta/wofi)                | Wayland rofi replacement (which also showed me CSS                         |
-| [amp](https://amp.rs)                                 | A no-nonsense, lightweight vi/vim-like text editor                         |
 | [vim](https://www.vim.org)                            | A nonsensical, likeable, and extremely configurable piece of ancient crust |
 | [zsh](https://www.zsh.org)                            | Shell... check, configurable... check, sounds cool... check                |
 | [starship](https://starship.rs)                       | The speedy, minimalist, cross-shell prompt written in Rust                 |
