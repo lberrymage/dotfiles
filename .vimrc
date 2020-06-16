@@ -1,5 +1,4 @@
 " For my viewing pleasure
-syntax on
 set number
 
 " Indentation
@@ -18,5 +17,13 @@ set tabstop=4
 set list listchars=tab:>-,trail:.
 highlight SpecialKey cterm=italic ctermfg=DarkGrey
 
-" Load filetype-specific configuration files
-filetype plugin indent on
+" Plugins
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+call plug#begin('~/.vim/plugged')
+
+call plug#end()
