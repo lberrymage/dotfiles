@@ -11,7 +11,6 @@ alias dfd='dotfile diff'
 alias dfl='dotfile log'
 alias dfs='dotfile status'
 alias ls='lsd'
-alias tree='ls --tree'
 
 # Default umask
 umask 027
