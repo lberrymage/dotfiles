@@ -1,6 +1,3 @@
-" For my viewing pleasure
-set number
-
 " Indentation
 " https://vim.fandom.com/wiki/Indent_with_tabs,_align_with_spaces
 set noexpandtab
@@ -26,4 +23,11 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'arzg/vim-rust-syntax-ext'
+Plug 'bluz71/vim-moonfly-colors'
+
 call plug#end()
+
+" For my viewing pleasure
+colorscheme moonfly
+set number
