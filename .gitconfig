@@ -4,23 +4,9 @@
 	signingKey = 9BD8C92FB2F968121EC1CDA8741C703B9C606DBB
 [core]
 	editor = vim
-	pager = diff-so-fancy | less --tabs=4 -RFX
+	pager = delta --plus-color="#044100"
 [gpg]
 	program = gpg2
-[color "diff-highlight"]
-	oldNormal = red bold
-	oldHighlight = red bold 52
-	newNormal = green bold
-	newHighlight = green bold 22
-[color "diff"]
-	meta = yellow
-	frag = magenta bold
-	commit = yellow bold
-	old = red bold
-	new = green bold
-	whitespace = red reverse
-[diff-so-fancy]
-	first-run = false
 [commit]
 	gpgSign = true
 [tag]
