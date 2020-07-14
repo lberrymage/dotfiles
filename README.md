@@ -46,6 +46,7 @@ Here's a list of all the notable things I have installed.
 | [starship](https://starship.rs)                       | The speedy, minimalist, cross-shell prompt written in Rust                 |
 | [htop](https://hisham.hm/htop)                        | Top, but pretty                                                            |
 | [neofetch](https://github.com/dylanaraps/neofetch)    | Fancy sysinfo tool for your screenshots                                    |
+| [yay](https://github.com/Jguer/yay)                   | Yet Another Yogurt - RIP yaourt                                            |
 
 ---
 
