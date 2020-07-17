@@ -6,20 +6,20 @@
 from subprocess import check_output
 
 def num_updates():
-	try:
-		output = check_output(['yay', '-Qqu']).decode('utf-8')
-	except subprocess.CalledProcessError as exc:
-		return []
+    try:
+        output = check_output(['yay', '-Qqu']).decode('utf-8')
+    except subprocess.CalledProcessError as exc:
+        return []
 
-	return len(output.split('\n')) - 1
+    return len(output.split('\n')) - 1
 
 if __name__ == '__main__':
-	update_count = num_updates()
-	if update_count == 0:
-		status = 'System up to date'
-	elif update_count == 1:
-		status = str(update_count) + ' update available'
-	else:
-		status = str(update_count) + ' updates available'
+    update_count = num_updates()
+    if update_count == 0:
+        status = 'System up to date'
+    elif update_count == 1:
+        status = str(update_count) + ' update available'
+    else:
+        status = str(update_count) + ' updates available'
 
-	print(status)
+    print(status)
