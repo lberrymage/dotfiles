@@ -25,6 +25,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'arzg/vim-rust-syntax-ext'
 Plug 'bluz71/vim-moonfly-colors'
+Plug 'ollykel/v-vim'
 
 call plug#end()
 
