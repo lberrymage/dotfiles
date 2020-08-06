@@ -20,3 +20,5 @@
 	helper = cache --timeout=3600
 [pull]
 	ff = only
+[advice]
+	detachedHead = false
