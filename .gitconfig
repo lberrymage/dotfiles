@@ -5,8 +5,6 @@
 [core]
 	editor = vim
 	pager = delta --plus-color="#044100"
-[gpg]
-	program = gpg2
 [commit]
 	gpgSign = true
 [tag]
