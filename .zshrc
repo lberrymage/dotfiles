@@ -25,6 +25,7 @@ bindkey -v
 # Autocompletion
 setopt COMPLETE_ALIASES
 zstyle :compinstall filename '/home/lberrymage/.zshrc'
+zstyle ':completion:*' rehash true
 autoload -Uz compinit
 compinit
 
