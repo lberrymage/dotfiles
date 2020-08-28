@@ -26,13 +26,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'arzg/vim-rust-syntax-ext'
 Plug 'bluz71/vim-moonfly-colors'
 Plug 'ollykel/v-vim'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
-
-inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
 " For my viewing pleasure
 colorscheme moonfly
