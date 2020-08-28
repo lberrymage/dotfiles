@@ -1,11 +1,7 @@
-" Indentation
-" https://vim.fandom.com/wiki/Indent_with_tabs,_align_with_spaces
 set noexpandtab
 set copyindent
 set preserveindent
 set softtabstop=0
-
-" Default tab width when not specified
 set shiftwidth=4
 set tabstop=4
 
@@ -14,7 +10,7 @@ set tabstop=4
 set list listchars=tab:>-,trail:.
 highlight SpecialKey cterm=italic ctermfg=DarkGrey
 
-" Plugins
+" Download vim-plug if not present
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -29,6 +25,5 @@ Plug 'ollykel/v-vim'
 
 call plug#end()
 
-" For my viewing pleasure
 colorscheme moonfly
 set number
