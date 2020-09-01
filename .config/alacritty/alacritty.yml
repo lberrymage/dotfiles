@@ -48,7 +48,8 @@ colors:
 
 background_opacity: 1.0
 
-dynamic_title: false
+window:
+  dynamic_title: false
 
 shell:
   program: /bin/zsh
