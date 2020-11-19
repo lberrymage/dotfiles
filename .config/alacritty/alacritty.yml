@@ -48,8 +48,5 @@ background_opacity: 1.0
 window:
   dynamic_title: false
 
-shell:
-  program: /bin/zsh
-
 mouse:
   hide_when_typing: true
