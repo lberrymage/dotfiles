@@ -43,8 +43,6 @@ colors:
     cyan:    '0x58d1eb'
     white:   '0xf6f6ef'
 
-background_opacity: 1.0
-
 window:
   dynamic_title: false
 
