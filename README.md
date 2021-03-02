@@ -61,6 +61,7 @@ Here's a list of all the notable things I have installed.
 - [git-lfs](https://git-lfs.github.com/)
 - [gnupg](https://gnupg.org)
 - [sccache](https://github.com/mozilla/sccache)
+- [lsd](https://github.com/Peltoche/lsd)
 
 ---
 
